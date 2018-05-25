@@ -1,0 +1,156 @@
+{
+    "acquisition_software": "Pychron18.2(Exp0.2,DVC0.1)",
+    "aliquot": 5,
+    "analysis_type": "unknown",
+    "analyst_name": "",
+    "comment": "J:7 Single crystal plag",
+    "commit": "53671a448789cca044d6f981e1a82fb85eeb06a3",
+    "conditionals": null,
+    "data_reduction_software": "Pychron18.2(DVC0.1)",
+    "detectors": {
+        "AX": {
+            "deflection": 190.0,
+            "gain": 0
+        },
+        "CDD": {
+            "deflection": 50.0,
+            "gain": 0
+        },
+        "H1": {
+            "deflection": 0.0,
+            "gain": 0
+        },
+        "H2": {
+            "deflection": 0.0,
+            "gain": 0
+        },
+        "L1": {
+            "deflection": 400.0,
+            "gain": 0
+        },
+        "L2": {
+            "deflection": 825.0,
+            "gain": 0
+        }
+    },
+    "environmental": {
+        "lab_humiditys": [
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Hum.",
+                "pub_date": "2018-05-25T06:15:09",
+                "title": "iServer Hum.",
+                "value": 23.6
+            }
+        ],
+        "lab_pneumatics": [
+            {
+                "device": "AirPressure",
+                "name": "Pressure",
+                "pub_date": "2018-05-25T06:29:10",
+                "title": "Building",
+                "value": 95.6
+            },
+            {
+                "device": "AirPressure2",
+                "name": "Pressure2",
+                "pub_date": "2018-05-25T06:29:11",
+                "title": "Lab",
+                "value": 86.4
+            },
+            {
+                "device": "MicroBoneGaugeController",
+                "name": "JanDecabinPressure",
+                "pub_date": "2018-05-25T05:56:57",
+                "title": "Jan Decabin",
+                "value": 3.5
+            }
+        ],
+        "lab_temperatures": [
+            {
+                "device": "Coldfinger",
+                "name": "ColdFinger Temp.",
+                "pub_date": "2018-05-25T06:08:06",
+                "title": "Cold Finger",
+                "value": -197.0
+            },
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Temp.",
+                "pub_date": "2018-05-25T06:01:03",
+                "title": "iServer Temp.",
+                "value": 71.2
+            },
+            {
+                "device": "Chiller",
+                "name": "Coolant Temp.",
+                "pub_date": "2018-05-25T05:09:53",
+                "title": "Coolant",
+                "value": 18.0
+            },
+            {
+                "device": "JanMonitor",
+                "name": "JanDecabinTemp",
+                "pub_date": "2018-05-25T06:24:17",
+                "title": null,
+                "value": 34.03663003663
+            }
+        ]
+    },
+    "experiment_queue_name": "Load1888",
+    "extraction": "jan_co2_video.py",
+    "identifier": "66271",
+    "increment": null,
+    "instrument_name": "",
+    "intensity_scalar": 0.0,
+    "irradiation": "NM-294",
+    "irradiation_level": "J",
+    "irradiation_position": 7,
+    "isotopes": {
+        "Ar36": {
+            "detector": "CDD",
+            "name": "Ar36"
+        },
+        "Ar37": {
+            "detector": "L2",
+            "name": "Ar37"
+        },
+        "Ar38": {
+            "detector": "L1",
+            "name": "Ar38"
+        },
+        "Ar39": {
+            "detector": "AX",
+            "name": "Ar39"
+        },
+        "Ar40": {
+            "detector": "H1",
+            "name": "Ar40"
+        },
+        "Ar41": {
+            "detector": "H2",
+            "name": "Ar41"
+        }
+    },
+    "laboratory": "",
+    "mass_spectrometer": "jan",
+    "material": "Plagioclase",
+    "measurement": "jan_unknown280_45_no_center.py",
+    "post_equilibration": "jan_pump_extraction_line.py",
+    "post_measurement": "jan_pump_ms.py",
+    "principal_investigator": "Streck, M",
+    "project": "Streck01107",
+    "queue_conditionals_name": "",
+    "repository_identifier": "Streck01107",
+    "sample": "MS-17-22",
+    "source": {
+        "emission": 545.359,
+        "trap": 198.483
+    },
+    "spec_sha": "aeee37f6851c2a8a0c5e3d2d44fb45db3b1fd20f",
+    "timestamp": "2018-05-25T06:29:15.194291",
+    "tripped_conditional": null,
+    "username": "",
+    "uuid": "2b8f415e-1f52-49ed-ad2f-99006afaaf6a",
+    "whiff_result": null
+}
